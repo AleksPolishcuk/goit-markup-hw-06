@@ -302,11 +302,16 @@ buttom {
   color: #404bbf;
 }
 
-/* .mobile-first-link {
+.mobile-first-link {
   color: #404bbf;
-} */
+}
 
 .mobile-contacts-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   margin-bottom: 48px;
 }
 
@@ -341,6 +346,10 @@ buttom {
 
 .contacts-link {
   color: #434455;
+}
+
+.mobile-first-contact {
+  color: #4d5ae5;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -440,6 +449,12 @@ buttom {
   }
 
   .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
     max-width: 496px;
     margin-bottom: 36px;
   }
